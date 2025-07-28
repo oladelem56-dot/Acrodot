@@ -32,7 +32,7 @@ const Hero = () => {
               Oladele Abiodun Moses
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in-up delay-100">
-              Digital Marketing Specialist
+              Digital Marketer & eCommerce Website Designer (Wix & Shopify)
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in-up delay-200">
               I help businesses grow their online presence through strategic digital marketing campaigns, 

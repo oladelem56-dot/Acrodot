@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center text-center">
           <div className="mb-8">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent mb-4">
-              Alex Johnson
+              Oladele Abiodun Moses
             </h3>
             <p className="text-muted-foreground max-w-md">
-              Building beautiful digital experiences with modern technologies and thoughtful design.
+              Helping businesses grow through strategic digital marketing and creative content solutions.
             </p>
           </div>
           
@@ -34,7 +34,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:alex@example.com"
+              href="mailto:oladele@example.com"
               className="text-muted-foreground hover:text-primary transition-colors p-3 hover:scale-110 transform duration-300"
             >
               <Mail className="w-5 h-5" />
@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>© {currentYear} Made with</span>
             <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>by Alex Johnson</span>
+            <span>by Oladele Abiodun Moses</span>
           </div>
         </div>
       </div>

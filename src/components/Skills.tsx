@@ -3,20 +3,20 @@ import { Badge } from '@/components/ui/badge';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "HTML5", "CSS3", "JavaScript"]
+      title: "Digital Strategy",
+      skills: ["SEO/SEM", "Social Media Marketing", "Content Strategy", "Brand Management", "Campaign Planning", "Market Research", "Competitor Analysis", "Growth Hacking"]
     },
     {
-      title: "Backend",
-      skills: ["Node.js", "Python", "Express.js", "Django", "PostgreSQL", "MongoDB", "Redis", "GraphQL"]
+      title: "Analytics & Tools",
+      skills: ["Google Analytics", "Google Ads", "Facebook Ads", "LinkedIn Ads", "HubSpot", "Mailchimp", "Hootsuite", "Canva"]
     },
     {
-      title: "Tools & Technologies",
-      skills: ["Git", "Docker", "AWS", "Vercel", "Figma", "Webpack", "Vite", "Jest"]
+      title: "Content Creation",
+      skills: ["Copywriting", "Email Marketing", "Blog Writing", "Video Marketing", "Graphic Design", "Photography", "Storytelling", "Brand Voice"]
     },
     {
-      title: "Design & UX",
-      skills: ["UI/UX Design", "Responsive Design", "Prototyping", "User Research", "Accessibility", "Design Systems"]
+      title: "Technical Skills",
+      skills: ["WordPress", "HTML/CSS", "Landing Pages", "A/B Testing", "CRM Management", "Marketing Automation", "Lead Generation", "Conversion Optimization"]
     }
   ];
 
@@ -29,7 +29,7 @@ const Skills = () => {
               Skills & Technologies
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I work with a diverse set of technologies to build modern, scalable, and user-friendly applications.
+              I leverage diverse digital marketing tools and strategies to drive growth and maximize ROI for businesses.
             </p>
           </div>
           

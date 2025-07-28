@@ -28,7 +28,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-            Portfolio
+            Oladele Abiodun
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

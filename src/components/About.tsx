@@ -11,8 +11,8 @@ const About = () => {
               About Me
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I'm a passionate full-stack developer with a love for creating exceptional digital experiences. 
-              With expertise in modern web technologies and a keen eye for design, I help bring ideas to life.
+              I'm a passionate digital marketing specialist with expertise in driving online growth and engagement. 
+              With a deep understanding of digital trends and consumer behavior, I help businesses reach their target audience effectively.
             </p>
           </div>
           
@@ -22,10 +22,10 @@ const About = () => {
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-primary-glow rounded-full flex items-center justify-center mx-auto mb-6">
                   <Code className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Development</h3>
+                <h3 className="text-xl font-semibold mb-4">Strategy</h3>
                 <p className="text-muted-foreground">
-                  Clean, efficient code with modern frameworks and best practices. 
-                  Always learning and adapting to new technologies.
+                  Data-driven marketing strategies that align with business goals. 
+                  Creating comprehensive campaigns that deliver measurable results.
                 </p>
               </CardContent>
             </Card>
@@ -35,10 +35,10 @@ const About = () => {
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-primary-glow rounded-full flex items-center justify-center mx-auto mb-6">
                   <Palette className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Design</h3>
+                <h3 className="text-xl font-semibold mb-4">Content</h3>
                 <p className="text-muted-foreground">
-                  User-centered design principles with attention to detail. 
-                  Creating interfaces that are both beautiful and functional.
+                  Compelling content creation that resonates with target audiences. 
+                  Crafting messages that engage, inform, and convert.
                 </p>
               </CardContent>
             </Card>
@@ -48,10 +48,10 @@ const About = () => {
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-primary-glow rounded-full flex items-center justify-center mx-auto mb-6">
                   <Zap className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Performance</h3>
+                <h3 className="text-xl font-semibold mb-4">Analytics</h3>
                 <p className="text-muted-foreground">
-                  Optimized solutions that scale. Fast, reliable, and 
-                  maintainable code that delivers exceptional user experiences.
+                  Performance tracking and optimization. Using data insights to 
+                  continuously improve campaign effectiveness and ROI.
                 </p>
               </CardContent>
             </Card>
@@ -60,11 +60,11 @@ const About = () => {
           <div className="bg-gradient-to-r from-accent-light/30 to-accent-light/10 rounded-2xl p-8">
             <h3 className="text-2xl font-semibold mb-6 text-center">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto">
-              With over 5 years of experience in web development, I've worked with startups and 
-              established companies to build everything from simple landing pages to complex web applications. 
-              I believe in writing clean, maintainable code and creating user experiences that make a difference. 
-              When I'm not coding, you'll find me exploring new technologies, contributing to open source, 
-              or enjoying the outdoors.
+              With several years of experience in digital marketing, I've helped businesses of all sizes 
+              build their online presence and drive meaningful engagement with their audiences. 
+              I believe in data-driven strategies and creating authentic connections between brands and customers. 
+              When I'm not crafting marketing campaigns, you'll find me staying up-to-date with the latest 
+              digital trends, analyzing market insights, or exploring creative content ideas.
             </p>
           </div>
         </div>

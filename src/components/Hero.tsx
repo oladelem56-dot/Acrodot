@@ -16,19 +16,27 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          <div className="mb-6">
+          <div className="mb-8">
+            <div className="w-48 h-48 mx-auto mb-8 relative">
+              <img 
+                src="/lovable-uploads/3fd8b746-f0e3-4bc2-815b-d1d7aed6b5bf.png" 
+                alt="Oladele Abiodun Moses"
+                className="w-full h-full object-cover rounded-full border-4 border-primary/20 shadow-xl animate-fade-in"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/10 to-transparent"></div>
+            </div>
             <h2 className="text-lg text-muted-foreground mb-4 animate-fade-in">
               Hello, I'm
             </h2>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent animate-fade-in-up">
-              Alex Johnson
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent animate-fade-in-up">
+              Oladele Abiodun Moses
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in-up delay-100">
-              Full Stack Developer & UI/UX Designer
+              Digital Marketing Specialist
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in-up delay-200">
-              I create beautiful, functional, and user-centered digital experiences. 
-              Passionate about turning ideas into reality through clean code and thoughtful design.
+              I help businesses grow their online presence through strategic digital marketing campaigns, 
+              data-driven insights, and creative content that converts visitors into customers.
             </p>
           </div>
           
@@ -68,7 +76,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="mailto:alex@example.com"
+              href="mailto:oladele@example.com"
               className="text-muted-foreground hover:text-primary transition-colors p-2 hover:scale-110 transform duration-300"
             >
               <Mail className="w-6 h-6" />

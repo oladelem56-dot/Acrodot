@@ -64,7 +64,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">oladele@example.com</p>
+                    <p className="text-muted-foreground">oladelem56@gmail.com</p>
                   </div>
                 </div>
                 
@@ -74,7 +74,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+234 8104033136</p>
                   </div>
                 </div>
                 
@@ -137,7 +137,7 @@ const Contact = () => {
                     className="w-full bg-gradient-to-r from-primary to-primary-glow hover:shadow-lg transition-all duration-300"
                   >
                     <Send className="w-4 h-4 mr-2" />
-                    Send Message
+                    Let's Work Together
                   </Button>
                 </form>
               </CardContent>

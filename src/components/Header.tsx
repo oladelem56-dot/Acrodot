@@ -27,8 +27,15 @@ const Header = () => {
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-            Oladele Abiodun
+          <div className="flex items-center gap-3">
+            <img 
+              src="/lovable-uploads/6388e6f9-8340-4eac-8d3f-f1f80ef8e79e.png" 
+              alt="ACRODOT Logo" 
+              className="w-8 h-8"
+            />
+            <div className="text-xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+              Oladele Moses
+            </div>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

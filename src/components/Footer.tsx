@@ -8,11 +8,18 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="mb-8">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent mb-4">
-              Oladele Abiodun Moses
-            </h3>
+            <div className="flex justify-center items-center gap-3 mb-4">
+              <img 
+                src="/lovable-uploads/6388e6f9-8340-4eac-8d3f-f1f80ef8e79e.png" 
+                alt="ACRODOT Logo" 
+                className="w-12 h-12"
+              />
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+                Oladele Abiodun Moses
+              </h3>
+            </div>
             <p className="text-muted-foreground max-w-md">
-              Helping businesses grow through strategic digital marketing and creative content solutions.
+              Digital Marketer & eCommerce Website Designer
             </p>
           </div>
           
@@ -34,17 +41,15 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:oladele@example.com"
+              href="mailto:oladelem56@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors p-3 hover:scale-110 transform duration-300"
             >
               <Mail className="w-5 h-5" />
             </a>
           </div>
           
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>© {currentYear} Made with</span>
-            <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>by Oladele Abiodun Moses</span>
+          <div className="text-sm text-muted-foreground">
+            <p>© 2025 Oladele Abiodun Moses – Helping brands grow with purpose and strategy.</p>
           </div>
         </div>
       </div>

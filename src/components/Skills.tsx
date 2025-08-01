@@ -3,20 +3,20 @@ import { Badge } from '@/components/ui/badge';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Digital Strategy",
-      skills: ["SEO/SEM", "Social Media Marketing", "Content Strategy", "Brand Management", "Campaign Planning", "Market Research", "Competitor Analysis", "Growth Hacking"]
+      title: "Marketing & Strategy",
+      skills: ["SEO/SEM", "Ad Campaigns", "Digital Strategy", "Review Management"]
     },
     {
-      title: "Analytics & Tools",
-      skills: ["Google Analytics", "Google Ads", "Facebook Ads", "LinkedIn Ads", "HubSpot", "Mailchimp", "Hootsuite", "Canva"]
+      title: "eCommerce Services",
+      skills: ["Shopify", "Wix", "Dropshipping", "Product Research", "Payment Integration"]
     },
     {
-      title: "Content Creation",
-      skills: ["Copywriting", "Email Marketing", "Blog Writing", "Video Marketing", "Graphic Design", "Photography", "Storytelling", "Brand Voice"]
+      title: "Tools & Tech",
+      skills: ["Canva", "Mailchimp", "Meta Ads", "Google Analytics"]
     },
     {
-      title: "Technical Skills",
-      skills: ["WordPress", "HTML/CSS", "Landing Pages", "A/B Testing", "CRM Management", "Marketing Automation", "Lead Generation", "Conversion Optimization"]
+      title: "Content & Branding",
+      skills: ["Copywriting", "Brand Voice", "Social Media Posts", "Email Content"]
     }
   ];
 
@@ -26,10 +26,10 @@ const Skills = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-              Skills & Technologies
+              Core Skills
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I leverage diverse digital marketing tools and strategies to drive growth and maximize ROI for businesses.
+              Organized by expertise areas to deliver comprehensive eCommerce and marketing solutions.
             </p>
           </div>
           

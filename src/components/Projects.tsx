@@ -9,31 +9,31 @@ import project3Image from '@/assets/project3.jpg';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Dashboard",
-      description: "A comprehensive dashboard for managing online stores with real-time analytics, inventory management, and order processing. Built with modern technologies for optimal performance.",
+      title: "Swimwear Shopify Store",
+      description: "Complete eCommerce solution with trend research, branded design, and mobile-optimized shopping experience for a premium swimwear brand.",
       image: project1Image,
-      technologies: ["React", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      technologies: ["Shopify", "Liquid", "CSS", "JavaScript", "Payment Gateway"],
+      liveUrl: "#",
+      githubUrl: "#",
       featured: true
     },
     {
-      title: "Mobile Shopping App",
-      description: "A cross-platform mobile application for seamless shopping experience with intuitive design, secure payments, and real-time order tracking.",
+      title: "Children's Bookstore on Wix",
+      description: "Engaging storytelling website with responsive layout, secure checkout, and interactive features designed for young readers and parents.",
       image: project2Image,
-      technologies: ["React Native", "Redux", "Firebase", "Stripe API"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      technologies: ["Wix", "Wix Code", "Database", "SEO Optimization"],
+      liveUrl: "#",
+      githubUrl: "#",
       featured: false
     },
     {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website showcasing projects and skills with smooth animations and optimal performance across all devices.",
+      title: "Restaurant Booking Site",
+      description: "Professional restaurant website with integrated reservation system, modern UI, and seamless customer booking experience.",
       image: project3Image,
-      technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Vercel"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
-      featured: false
+      technologies: ["Custom HTML/CSS", "JavaScript", "Booking System", "Mobile Responsive"],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true
     }
   ];
 

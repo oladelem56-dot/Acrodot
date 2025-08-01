@@ -1,5 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Code, Palette, Zap } from 'lucide-react';
+import { Target, PenTool, BarChart3 } from 'lucide-react';
 
 const About = () => {
   return (
@@ -10,9 +10,8 @@ const About = () => {
             <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
               About Me
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I'm a passionate digital marketing specialist with expertise in driving online growth and engagement. 
-              With a deep understanding of digital trends and consumer behavior, I help businesses reach their target audience effectively.
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              I'm a digital marketer and eCommerce designer helping businesses grow online through full-service store design and digital strategy.
             </p>
           </div>
           
@@ -20,12 +19,11 @@ const About = () => {
             <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 bg-gradient-to-br from-card to-accent-light/50">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-primary-glow rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Code className="w-8 h-8 text-primary-foreground" />
+                  <Target className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Strategy</h3>
+                <h3 className="text-xl font-semibold mb-4 text-primary">eCommerce Design</h3>
                 <p className="text-muted-foreground">
-                  Data-driven marketing strategies that align with business goals. 
-                  Creating comprehensive campaigns that deliver measurable results.
+                  Shopify and Wix websites, dropshipping stores, children's bookstores, booking and restaurant websites, beauty and fashion brands.
                 </p>
               </CardContent>
             </Card>
@@ -33,12 +31,11 @@ const About = () => {
             <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 bg-gradient-to-br from-card to-accent-light/50">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-primary-glow rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Palette className="w-8 h-8 text-primary-foreground" />
+                  <PenTool className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Content</h3>
+                <h3 className="text-xl font-semibold mb-4 text-primary">Digital Marketing</h3>
                 <p className="text-muted-foreground">
-                  Compelling content creation that resonates with target audiences. 
-                  Crafting messages that engage, inform, and convert.
+                  Social media marketing, ad campaigns (Facebook, Instagram, Google), email marketing and automation, conversion optimization.
                 </p>
               </CardContent>
             </Card>
@@ -46,26 +43,29 @@ const About = () => {
             <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 bg-gradient-to-br from-card to-accent-light/50">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-primary-glow rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Zap className="w-8 h-8 text-primary-foreground" />
+                  <BarChart3 className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Analytics</h3>
+                <h3 className="text-xl font-semibold mb-4 text-primary">Business Services</h3>
                 <p className="text-muted-foreground">
-                  Performance tracking and optimization. Using data insights to 
-                  continuously improve campaign effectiveness and ROI.
+                  Product research, payment gateway integration, review management, strategic planning and optimization.
                 </p>
               </CardContent>
             </Card>
           </div>
           
-          <div className="bg-gradient-to-r from-accent-light/30 to-accent-light/10 rounded-2xl p-8">
-            <h3 className="text-2xl font-semibold mb-6 text-center">My Journey</h3>
-            <p className="text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto">
-              With several years of experience in digital marketing, I've helped businesses of all sizes 
-              build their online presence and drive meaningful engagement with their audiences. 
-              I believe in data-driven strategies and creating authentic connections between brands and customers. 
-              When I'm not crafting marketing campaigns, you'll find me staying up-to-date with the latest 
-              digital trends, analyzing market insights, or exploring creative content ideas.
-            </p>
+          <div className="max-w-4xl mx-auto">
+            <Card className="bg-card/50 backdrop-blur-sm border-border/50">
+              <CardContent className="p-12">
+                <h3 className="text-2xl font-bold mb-6 text-center text-primary">My Approach</h3>
+                <p className="text-lg text-muted-foreground leading-relaxed text-center">
+                  I specialize in creating comprehensive eCommerce solutions that combine beautiful design with strategic marketing. 
+                  Whether you need a high-converting Shopify store, a stunning Wix website, or a complete digital marketing strategy, 
+                  I bring expertise in both technical implementation and creative strategy. My goal is to help businesses not just 
+                  establish an online presence, but to thrive in the digital marketplace through optimized user experiences and 
+                  data-driven marketing campaigns.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>

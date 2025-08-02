@@ -33,9 +33,6 @@ const Header = () => {
               alt="ACRODOT Logo" 
               className="w-8 h-8"
             />
-            <div className="text-xl font-bold bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
-              ACRODOT
-            </div>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

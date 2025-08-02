@@ -14,8 +14,8 @@ const Footer = () => {
                 alt="ACRODOT Logo" 
                 className="w-12 h-12"
               />
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                Oladele Abiodun Moses
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
+                Oladele Abiodun
               </h3>
             </div>
             <p className="text-muted-foreground max-w-md">
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
           
           <div className="text-sm text-muted-foreground">
-            <p>© 2025 Oladele Abiodun Moses – Helping brands grow with purpose and strategy.</p>
+            <p>© 2025 Oladele Abiodun – Helping brands grow with purpose and strategy.</p>
           </div>
         </div>
       </div>

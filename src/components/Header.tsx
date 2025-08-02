@@ -33,8 +33,8 @@ const Header = () => {
               alt="ACRODOT Logo" 
               className="w-8 h-8"
             />
-            <div className="text-xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-              Oladele Moses
+            <div className="text-xl font-bold bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
+              ACRODOT
             </div>
           </div>
           

@@ -15,21 +15,33 @@ const Hero = () => {
       />
       
       <div className="container mx-auto px-6 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-          {/* Left side - Content */}
-          <div className="text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent animate-fade-in-up">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+          {/* Profile Picture - Top on mobile, Left on desktop */}
+          <div className="flex justify-center lg:justify-start order-1 lg:order-1">
+            <div className="w-64 h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 relative animate-fade-in">
+              <img 
+                src="/lovable-uploads/2616aab1-a032-41a0-8b92-f39f729a0929.png" 
+                alt="Oladele Abiodun"
+                className="w-full h-full object-cover rounded-2xl border-4 border-accent/20 shadow-2xl"
+              />
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-accent/10 to-transparent"></div>
+            </div>
+          </div>
+          
+          {/* Content - Below image on mobile, Right on desktop */}
+          <div className="text-center lg:text-left flex-1 order-2 lg:order-2">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent animate-fade-in-up">
               Oladele Abiodun
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in-up delay-100">
+            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 animate-fade-in-up delay-100">
               Digital Marketer & eCommerce Website Designer (Wix, Shopify, Dropshipping)
             </p>
-            <p className="text-lg text-muted-foreground mb-12 animate-fade-in-up delay-200">
+            <p className="text-base md:text-lg text-muted-foreground mb-8 animate-fade-in-up delay-200">
               I help businesses grow their online presence through full-service store design, 
-              strategic digital marketing campaigns, and data-driven insights that convert visitors into customers.
+              strategic digital marketing, and data-driven insights that convert visitors into customers.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-up delay-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 animate-fade-in-up delay-300">
               <Button 
                 size="lg"
                 onClick={() => scrollToSection('projects')}
@@ -46,7 +58,7 @@ const Hero = () => {
               </Button>
             </div>
             
-            <div className="flex items-center gap-6 animate-fade-in-up delay-400">
+            <div className="flex items-center justify-center lg:justify-start gap-6 animate-fade-in-up delay-400">
               <a 
                 href="https://github.com" 
                 target="_blank" 
@@ -69,18 +81,6 @@ const Hero = () => {
               >
                 <Mail className="w-6 h-6" />
               </a>
-            </div>
-          </div>
-          
-          {/* Right side - Expanded Photo */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="w-80 h-80 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem] relative animate-fade-in">
-              <img 
-                src="/lovable-uploads/2616aab1-a032-41a0-8b92-f39f729a0929.png" 
-                alt="Oladele Abiodun"
-                className="w-full h-full object-cover rounded-2xl border-4 border-accent/20 shadow-2xl"
-              />
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-accent/10 to-transparent"></div>
             </div>
           </div>
         </div>

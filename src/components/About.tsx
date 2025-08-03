@@ -11,7 +11,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              I'm a digital marketer and eCommerce designer helping businesses grow online through full-service store design and digital strategy.
+              I'm Oladele Abiodun a passionate digital marketer and eCommerce website designer dedicated to helping brands grow and thrive online. I specialize in building beautiful, high-converting online stores using Shopify and Wix, paired with data driven digital strategies that turn visitors into loyal customers.
             </p>
           </div>
           
@@ -58,11 +58,7 @@ const About = () => {
               <CardContent className="p-12">
                 <h3 className="text-2xl font-bold mb-6 text-center text-primary">My Approach</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed text-center">
-                  I specialize in creating comprehensive eCommerce solutions that combine beautiful design with strategic marketing. 
-                  Whether you need a high-converting Shopify store, a stunning Wix website, or a complete digital marketing strategy, 
-                  I bring expertise in both technical implementation and creative strategy. My goal is to help businesses not just 
-                  establish an online presence, but to thrive in the digital marketplace through optimized user experiences and 
-                  data-driven marketing campaigns.
+                  Whether you're launching your first product or scaling an established brand, I bring a full service approach combining smart design, clear messaging and performance focused marketing to deliver real results.
                 </p>
               </CardContent>
             </Card>

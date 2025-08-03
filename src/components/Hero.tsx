@@ -16,8 +16,8 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          {/* Profile Picture - Top on mobile, Left on desktop */}
-          <div className="flex justify-center lg:justify-start order-1 lg:order-1">
+          {/* Profile Picture - Left side */}
+          <div className="flex justify-center lg:justify-start">
             <div className="w-64 h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 relative animate-fade-in">
               <img 
                 src="/lovable-uploads/2616aab1-a032-41a0-8b92-f39f729a0929.png" 
@@ -28,8 +28,8 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Content - Below image on mobile, Right on desktop */}
-          <div className="text-center lg:text-left flex-1 order-2 lg:order-2">
+          {/* Content - Right side */}
+          <div className="text-center lg:text-left flex-1">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent animate-fade-in-up">
               Oladele Abiodun
             </h1>
@@ -38,7 +38,7 @@ const Hero = () => {
             </p>
             <p className="text-base md:text-lg text-muted-foreground mb-8 animate-fade-in-up delay-200">
               I help businesses grow their online presence through full-service store design, 
-              strategic digital marketing, and data-driven insights that convert visitors into customers.
+              strategic digital marketing, product research, Facebook ads, email marketing, and data-driven insights that convert visitors into customers.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 animate-fade-in-up delay-300">

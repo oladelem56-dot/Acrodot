@@ -15,10 +15,10 @@ const Hero = () => {
       />
       
       <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          {/* Profile Picture - Left side */}
-          <div className="flex justify-center lg:justify-start">
-            <div className="w-64 h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 relative animate-fade-in">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center max-w-6xl mx-auto">
+          {/* Left Section - Profile Image */}
+          <div className="flex-shrink-0">
+            <div className="w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 relative animate-fade-in">
               <img 
                 src="/lovable-uploads/2616aab1-a032-41a0-8b92-f39f729a0929.png" 
                 alt="Oladele Abiodun"
@@ -28,9 +28,9 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Content - Right side */}
-          <div className="text-center lg:text-left flex-1">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent animate-fade-in-up">
+          {/* Right Section - Content */}
+          <div className="flex-1 text-center md:text-left">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent animate-fade-in-up">
               Oladele Abiodun
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 animate-fade-in-up delay-100">
@@ -38,10 +38,10 @@ const Hero = () => {
             </p>
             <p className="text-base md:text-lg text-muted-foreground mb-8 animate-fade-in-up delay-200">
               I help businesses grow their online presence through full-service store design, 
-              strategic digital marketing, product research, Facebook ads, email marketing, and data-driven insights that convert visitors into customers.
+              strategic digital marketing, and data-driven insights that convert visitors into customers.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 animate-fade-in-up delay-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8 animate-fade-in-up delay-300">
               <Button 
                 size="lg"
                 onClick={() => scrollToSection('projects')}
@@ -58,7 +58,7 @@ const Hero = () => {
               </Button>
             </div>
             
-            <div className="flex items-center justify-center lg:justify-start gap-6 animate-fade-in-up delay-400">
+            <div className="flex items-center justify-center md:justify-start gap-6 animate-fade-in-up delay-400">
               <a 
                 href="https://github.com" 
                 target="_blank" 

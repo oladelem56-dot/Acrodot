@@ -9,8 +9,8 @@ import project3Image from '@/assets/project3.jpg';
 const Projects = () => {
   const projects = [
     {
-      title: "Swimwear Shopify Store",
-      description: "Complete eCommerce solution with trend research, branded design, and mobile-optimized shopping experience for a premium swimwear brand.",
+      title: "Primowears Fashion Store",
+      description: "Modern fashion eCommerce platform featuring trendy clothing collections, seamless checkout process, and responsive design for optimal shopping experience.",
       image: project1Image,
       technologies: ["Shopify", "Liquid", "CSS", "JavaScript", "Payment Gateway"],
       liveUrl: "#",
@@ -18,9 +18,18 @@ const Projects = () => {
       featured: true
     },
     {
+      title: "Swimwear Shopify Store",
+      description: "Complete eCommerce solution with trend research, branded design, and mobile-optimized shopping experience for a premium swimwear brand.",
+      image: project2Image,
+      technologies: ["Shopify", "Liquid", "CSS", "JavaScript", "Payment Gateway"],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: false
+    },
+    {
       title: "Children's Bookstore on Wix",
       description: "Engaging storytelling website with responsive layout, secure checkout, and interactive features designed for young readers and parents.",
-      image: project2Image,
+      image: project3Image,
       technologies: ["Wix", "Wix Code", "Database", "SEO Optimization"],
       liveUrl: "#",
       githubUrl: "#",
@@ -29,7 +38,7 @@ const Projects = () => {
     {
       title: "Restaurant Booking Site",
       description: "Professional restaurant website with integrated reservation system, modern UI, and seamless customer booking experience.",
-      image: project3Image,
+      image: project1Image,
       technologies: ["Custom HTML/CSS", "JavaScript", "Booking System", "Mobile Responsive"],
       liveUrl: "#",
       githubUrl: "#",

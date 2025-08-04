@@ -39,7 +39,7 @@ const Skills = () => {
                 key={category.title}
                 className="bg-card/50 backdrop-blur-sm rounded-2xl p-8 hover:bg-card/80 transition-all duration-300 border border-border/50"
               >
-                <h3 className="text-xl font-semibold mb-6 text-primary">
+                <h3 className="text-xl font-semibold mb-6 text-yellow-600 dark:text-yellow-400">
                   {category.title}
                 </h3>
                 <div className="flex flex-wrap gap-3">

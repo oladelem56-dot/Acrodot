@@ -28,7 +28,7 @@ const Hero = () => {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-accent animate-fade-in-up">
               Oladele Abiodun
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-accent font-semibold mb-6 animate-fade-in-up delay-100">
+            <p className="text-lg md:text-xl lg:text-2xl text-accent font-bold mb-6 animate-fade-in-up delay-100">
               Digital Growth Designer & eCommerce Strategist
             </p>
             <p className="text-base md:text-lg text-foreground/80 mb-8 animate-fade-in-up delay-200 leading-relaxed">

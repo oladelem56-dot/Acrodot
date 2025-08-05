@@ -19,10 +19,10 @@ const Header = () => {
 
   return (
     <header 
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 w-full z-[100] transition-all duration-300 ${
         isScrolled 
-          ? 'bg-background/90 backdrop-blur-md border-b border-border shadow-sm' 
-          : 'bg-transparent'
+          ? 'bg-background/95 backdrop-blur-md border-b border-border shadow-lg' 
+          : 'bg-background/20 backdrop-blur-sm'
       }`}
     >
       <nav className="container mx-auto px-6 py-4">
@@ -38,25 +38,25 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('about')}
-              className="hover:text-primary transition-colors"
+              className="text-foreground hover:text-accent transition-colors font-medium"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
-              className="hover:text-primary transition-colors"
+              className="text-foreground hover:text-accent transition-colors font-medium"
             >
               Skills
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
-              className="hover:text-primary transition-colors"
+              className="text-foreground hover:text-accent transition-colors font-medium"
             >
               Projects
             </button>
             <Button 
               onClick={() => scrollToSection('contact')}
-              className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-lg transition-all duration-300"
+              size="sm"
             >
               Contact
             </Button>

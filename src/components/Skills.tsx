@@ -25,7 +25,7 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+            <h2 className="text-4xl font-bold mb-6 text-accent">
               Core Skills
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -39,7 +39,7 @@ const Skills = () => {
                 key={category.title}
                 className="bg-card/50 backdrop-blur-sm rounded-2xl p-8 hover:bg-card/80 transition-all duration-300 border border-border/50"
               >
-                <h3 className="text-xl font-semibold mb-6 text-yellow-600 dark:text-yellow-400">
+                <h3 className="text-xl font-semibold mb-6 text-accent">
                   {category.title}
                 </h3>
                 <div className="flex flex-wrap gap-3">

@@ -8,12 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative">
-      <div 
-        className="absolute inset-0"
-        style={{ background: 'var(--gradient-hero)' }}
-      />
-      
+    <section className="min-h-screen flex items-center justify-center relative bg-background">
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center max-w-6xl mx-auto">
           {/* Left Section - Profile Image */}
@@ -22,7 +17,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/2616aab1-a032-41a0-8b92-f39f729a0929.png" 
                 alt="Oladele Abiodun"
-                className="w-full h-full object-cover rounded-2xl border-4 border-accent/20 shadow-2xl"
+                className="w-full h-full object-cover rounded-2xl border-4 border-accent/30 shadow-2xl"
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-accent/10 to-transparent"></div>
             </div>
@@ -30,13 +25,13 @@ const Hero = () => {
           
           {/* Right Section - Content */}
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent animate-fade-in-up">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-accent animate-fade-in-up">
               Oladele Abiodun
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 animate-fade-in-up delay-100">
-              Digital Marketer & eCommerce Website Designer (Wix, Shopify, Dropshipping)
+            <p className="text-lg md:text-xl lg:text-2xl text-accent font-semibold mb-6 animate-fade-in-up delay-100">
+              Digital Growth Designer & eCommerce Strategist
             </p>
-            <p className="text-base md:text-lg text-muted-foreground mb-8 animate-fade-in-up delay-200">
+            <p className="text-base md:text-lg text-foreground/80 mb-8 animate-fade-in-up delay-200 leading-relaxed">
               I help businesses grow their online presence through full-service store design, 
               strategic digital marketing, and data-driven insights that convert visitors into customers.
             </p>
@@ -45,14 +40,13 @@ const Hero = () => {
               <Button 
                 size="lg"
                 onClick={() => scrollToSection('projects')}
-                className="bg-gradient-to-r from-accent to-accent-light hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
                 View My Work
               </Button>
               <Button 
                 size="lg"
+                variant="outline"
                 onClick={() => scrollToSection('contact')}
-                className="bg-gradient-to-r from-accent to-accent-light hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
                 Let's Work Together
               </Button>

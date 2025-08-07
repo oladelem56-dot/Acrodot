@@ -25,10 +25,10 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-secondary">
+    <section id="services" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
             Our Services
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -39,17 +39,17 @@ const Services = () => {
         
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="p-8 text-center hover:shadow-lg transition-all duration-300 bg-card border border-border">
-              <div className="text-accent mb-6 flex justify-center">
+            <Card key={index} className="p-8 text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300 bg-card border border-border rounded-2xl">
+              <div className="text-accent mb-6 flex justify-center p-4 bg-accent/10 rounded-full w-20 h-20 mx-auto items-center">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-4">
+              <h3 className="text-xl font-bold text-primary mb-4">
                 {service.title}
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 {service.description}
               </p>
-              <ul className="space-y-2 mb-6">
+              <ul className="space-y-3 mb-8">
                 {service.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="text-sm text-muted-foreground flex items-center justify-center gap-2">
                     <div className="w-1.5 h-1.5 bg-success rounded-full"></div>
@@ -57,7 +57,7 @@ const Services = () => {
                   </li>
                 ))}
               </ul>
-              <Button variant="outline" size="sm">
+              <Button variant="outline" size="sm" className="rounded-xl border-2 hover:border-accent hover:text-accent">
                 Learn More
               </Button>
             </Card>

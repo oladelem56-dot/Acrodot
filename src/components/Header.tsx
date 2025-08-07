@@ -27,12 +27,8 @@ const Header = () => {
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <img 
-              src="/lovable-uploads/6388e6f9-8340-4eac-8d3f-f1f80ef8e79e.png" 
-              alt="ACRODOT Logo" 
-              className="w-8 h-8"
-            />
+          <div className="text-xl font-bold text-primary">
+            Acrodot
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -43,16 +39,16 @@ const Header = () => {
               About
             </button>
             <button 
-              onClick={() => scrollToSection('skills')}
+              onClick={() => scrollToSection('services')}
               className="text-foreground hover:text-accent transition-colors font-medium"
             >
-              Skills
+              Services
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
               className="text-foreground hover:text-accent transition-colors font-medium"
             >
-              Projects
+              Portfolio
             </button>
             <Button 
               onClick={() => scrollToSection('contact')}

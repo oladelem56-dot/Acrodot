@@ -10,71 +10,55 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative bg-background">
       <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center max-w-6xl mx-auto">
-          {/* Left Section - Profile Image */}
-          <div className="flex-shrink-0">
-            <div className="w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 relative animate-fade-in">
-              <img 
-                src="/lovable-uploads/2616aab1-a032-41a0-8b92-f39f729a0929.png" 
-                alt="Oladele Abiodun"
-                className="w-full h-full object-cover rounded-2xl border-4 border-accent/30 shadow-2xl"
-              />
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-accent/10 to-transparent"></div>
-            </div>
+        <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+          {/* Logo */}
+          <div className="mb-8 animate-fade-in">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-primary mb-2">
+              Acrodot
+            </h1>
+            <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
           </div>
           
-          {/* Right Section - Content */}
-          <div className="flex-1 text-center md:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-accent animate-fade-in-up">
-              Oladele Abiodun
-            </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-accent font-bold mb-6 animate-fade-in-up delay-100">
-              Digital Growth Designer & eCommerce Strategist
-            </p>
-            <p className="text-base md:text-lg text-foreground/80 mb-8 animate-fade-in-up delay-200 leading-relaxed">
-              I help businesses grow their online presence through full-service store design, 
-              strategic digital marketing, and data-driven insights that convert visitors into customers.
+          {/* Content */}
+          <div className="space-y-6">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground animate-fade-in-up delay-100">
+              Digital Marketing & eCommerce Excellence
+            </h2>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl animate-fade-in-up delay-200 leading-relaxed">
+              We transform businesses through high-converting Shopify stores, strategic digital marketing, 
+              and data-driven eCommerce solutions that drive real results.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8 animate-fade-in-up delay-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-fade-in-up delay-300">
               <Button 
                 size="lg"
                 onClick={() => scrollToSection('projects')}
               >
-                View My Work
+                View Portfolio
               </Button>
               <Button 
                 size="lg"
                 variant="outline"
                 onClick={() => scrollToSection('contact')}
               >
-                Let's Work Together
+                Work With Me
               </Button>
             </div>
             
-            <div className="flex items-center justify-center md:justify-start gap-6 animate-fade-in-up delay-400">
-              <a 
-                href="https://github.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors p-2 hover:scale-110 transform duration-300"
-              >
-                <Github className="w-6 h-6" />
-              </a>
-              <a 
-                href="https://linkedin.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors p-2 hover:scale-110 transform duration-300"
-              >
-                <Linkedin className="w-6 h-6" />
-              </a>
-              <a 
-                href="mailto:oladelem56@gmail.com"
-                className="text-muted-foreground hover:text-accent transition-colors p-2 hover:scale-110 transform duration-300"
-              >
-                <Mail className="w-6 h-6" />
-              </a>
+            {/* Trust Badges */}
+            <div className="flex flex-wrap justify-center gap-6 mt-12 animate-fade-in-up delay-400">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <div className="w-2 h-2 bg-success rounded-full"></div>
+                <span>Shopify Partner</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <div className="w-2 h-2 bg-success rounded-full"></div>
+                <span>5+ Years Experience</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <div className="w-2 h-2 bg-success rounded-full"></div>
+                <span>50+ Stores Built</span>
+              </div>
             </div>
           </div>
         </div>

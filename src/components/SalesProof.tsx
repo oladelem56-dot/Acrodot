@@ -119,16 +119,17 @@ const SalesProof = () => {
                         </div>
                       </div>
 
-                      {/* Client Info */}
+                       {/* Dashboard Screenshot */}
                       <div className="lg:border-l lg:border-accent/20 lg:pl-8">
                         <div className="text-center lg:text-left">
-                          <p className="text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                            Client
+                          <p className="text-sm text-muted-foreground uppercase tracking-wide mb-4">
+                            Live Analytics
                           </p>
-                          <h4 className="text-xl font-semibold text-foreground mb-4">
-                            {sale.clients}
-                          </h4>
-                          <div className="w-16 h-1 bg-gradient-to-r from-accent to-accent-light mx-auto lg:mx-0 rounded-full"></div>
+                          <img 
+                            src="/lovable-uploads/5f0f596e-1893-45ed-85cb-d471e9f1f8ed.png" 
+                            alt="Analytics dashboard showing growth metrics"
+                            className="w-full h-auto rounded-lg shadow-lg"
+                          />
                         </div>
                       </div>
                     </div>

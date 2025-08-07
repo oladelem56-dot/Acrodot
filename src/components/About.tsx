@@ -7,11 +7,11 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-              About Me
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+              About Acrodot
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              I'm Oladele Abiodun a passionate digital marketer and eCommerce website designer dedicated to helping brands grow and thrive online. I specialize in building beautiful, high-converting online stores using Shopify and Wix, paired with data driven digital strategies that turn visitors into loyal customers.
+              We are digital growth specialists dedicated to helping brands thrive online through high-converting eCommerce solutions, strategic digital marketing, and data-driven growth strategies.
             </p>
           </div>
           
@@ -56,9 +56,9 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <Card className="bg-card/50 backdrop-blur-sm border-border/50">
               <CardContent className="p-12">
-                <h3 className="text-2xl font-bold mb-6 text-center text-primary">My Approach</h3>
+                <h3 className="text-2xl font-bold mb-6 text-center text-foreground">Our Approach</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed text-center">
-                  Whether you're launching your first product or scaling an established brand, I bring a full service approach combining smart design, clear messaging and performance focused marketing to deliver real results.
+                  Whether you're launching your first product or scaling an established brand, we bring a comprehensive approach combining smart design, clear messaging, and performance-focused marketing to deliver measurable results.
                 </p>
               </CardContent>
             </Card>

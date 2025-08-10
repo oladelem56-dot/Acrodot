@@ -24,7 +24,6 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4" style={{ color: '#FFD700' }}>
               ACRODOT
             </h1>
-            <div className="w-20 h-1 mx-auto rounded-full" style={{ backgroundColor: '#FFD700' }}></div>
           </div>
           
           {/* Main Headlines */}

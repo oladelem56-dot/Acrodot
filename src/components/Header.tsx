@@ -27,8 +27,12 @@ const Header = () => {
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold text-primary">
-            Acrodot
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/5f0f596e-1893-45ed-85cb-d471e9f1f8ed.png" 
+              alt="Acrodot Logo" 
+              className="h-8 w-auto"
+            />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

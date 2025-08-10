@@ -29,7 +29,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/5f0f596e-1893-45ed-85cb-d471e9f1f8ed.png" 
+              src="/lovable-uploads/ca73a20a-b7dd-47fd-a346-e72b3df78366.png" 
               alt="Acrodot Logo" 
               className="h-8 w-auto"
             />
